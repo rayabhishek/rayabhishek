@@ -1,0 +1,56 @@
+.about {
+    color : whitesmoke;
+    margin-top : 4rem;
+}
+
+.fix-height {
+    flex-shrink: 3;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fix-height-left{
+    margin-left : 3rem;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.on-hover {
+    transition: all 200ms;
+}
+
+.devIcon:hover{
+    transform: translateX(-3px) scale(1.1) !important;
+}
+
+
+/*
+.social-appear {
+    opacity: 0.01;
+  }
+  
+  .social-appear.social-appear-active {
+    opacity: 1;
+    transition: opacity .8s ease-in;
+  }
+*/
+
+/*
+.on-hover:nth-child(3n+1):hover {
+    color : rgb(71, 247, 55);
+}
+
+.on-hover:nth-child(3n+2):hover {
+    color : orange;
+}
+
+.on-hover:nth-child(3n+3):hover {
+    color : yellow;
+}
+*/
